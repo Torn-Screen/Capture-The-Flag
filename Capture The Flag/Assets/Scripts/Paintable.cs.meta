@@ -3,7 +3,9 @@ guid: 0047bb87c24ec044a8d08017d26b2bb1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - orangeTexture: {fileID: 4238265678210404722, guid: b45287a1511673f4f819cf3a06e938c6,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
