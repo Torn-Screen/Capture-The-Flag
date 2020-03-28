@@ -22,7 +22,7 @@ public class Paintable : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //print("normal2: "+collision.contacts[0].normal);
-        if (collision.gameObject.name == "Bullet(Clone)")
+        if (collision.gameObject.name == "Capsule")
         {
            
             Instantiate(orangeTexture, collision.gameObject.transform.position, Quaternion.FromToRotation(Vector3.up, collision.contacts[0].normal));

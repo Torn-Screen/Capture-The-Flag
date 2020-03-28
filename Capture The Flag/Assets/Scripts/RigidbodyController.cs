@@ -21,7 +21,7 @@ public class RigidbodyController : MonoBehaviour
     private Vector2 movementInput;
     [SerializeField] private readonly float moveSpeed = 5f;
     [SerializeField] private readonly float maxInclineAngle = 45f;
-    [SerializeField] private readonly float climbSpeed = 50f;
+    [SerializeField] private readonly float climbSpeed = 2f;
     [SerializeField] private readonly float jumpSpeed = 15.0f;
     [SerializeField] private readonly float fallSpeedMultiplier = 1.3f;
     [SerializeField] private readonly float groundedGravityMultiplier = 0f;
